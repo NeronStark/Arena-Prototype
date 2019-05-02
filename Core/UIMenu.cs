@@ -12,6 +12,7 @@ public class UIMenu : MonoBehaviour
     public GameObject kitchenMenu;
     public GameObject villaMenu;
     public GameObject warriorMenu;
+    public GameObject arenaMenu;
     public GameObject slaveMenu;
     public GameObject warehouseMenu;
 
@@ -51,6 +52,11 @@ public class UIMenu : MonoBehaviour
             case "slave":
                 menu.SetActive(true);
                 slaveMenu.SetActive(true);
+                break;
+
+            case "arena":
+                menu.SetActive(true);
+                arenaMenu.SetActive(true);
                 break;
 
             case "warehouse":
